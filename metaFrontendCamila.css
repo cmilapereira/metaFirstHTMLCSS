@@ -1,0 +1,143 @@
+header > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+body{
+    background-color: rgba(0, 128, 0, 0.406);
+}
+
+/* In the navigation bar I put an interactive detail for color change*/
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgba(170, 5, 5, 0.742);
+    border-radius: 20px ;
+    padding: 20px;
+    width: 1800px;
+    margin: auto;
+    font-size: 30px;
+}
+
+ nav li {
+    display: inline-block;
+ }
+ a:link {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 30px;
+}
+
+a:visited{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgba(9, 181, 9, 0.628);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+a:active{
+    color: rgba(9, 181, 9, 0.628);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+/*Main*/
+
+#promo {
+    background-image: url("/promo.jpg");
+    border-radius: 20px ;
+    padding: 60px;
+    width: 800px;
+    margin: auto;
+    font-size: 40px;
+    color:aliceblue;
+}
+
+section {
+    display: flex;
+}
+
+article{
+    flex: 1;
+}
+
+div{
+    border-radius: 20px ;
+    padding: 20px;
+    width: 20px;
+    margin: auto;
+}
+
+#sus {
+    text-align: center;
+    background-color: rgba(170, 5, 5, 0.742);
+    border-radius: 20px ;
+    padding: 10px;
+    width: 80px;
+    margin: auto;
+    font-size: 20px;
+    color:aliceblue;
+}
+
+#der {
+    text-align: center;
+    background-color: rgba(33, 142, 33, 0.543);
+    border-radius: 20px ;
+    padding: 10px;
+    width: 80px;
+    margin: auto;
+    font-size: 20px;
+    color:aliceblue;
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+    text-align: center;
+}
+
+/*contact*/
+
+#form{ 
+    background:rgba(170, 5, 5, 0.742);
+    border-top:8px solid;
+    border-left:8px solid;
+    border-right:8px solid;
+    border-bottom:8px solid;
+    border-collapse:collapse; 
+    color:aliceblue;
+    font-size: 20px;
+} 
+
+form div {
+    margin-top: 1em;
+}
+  
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+  
+#end {
+    text-align: center;
+    background-color: rgba(170, 5, 5, 0.537);
+    border-radius: 20px ;
+    padding: 20px;
+    width: 1800px;
+    margin: auto;
+    font-size: 30px;
+    color: aliceblue;
+}
