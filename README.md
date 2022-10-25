@@ -4,3 +4,4 @@ Completion work of the 4th course of the professional certificate for Developed 
 In this project I worked only with HTML and CSS functions. But, I believe that very soon I will be making an updated version with all the JS functions.
 
 Here you will find 4 different navigation pages. The fictio client was one of the logo options that was made available by Meta. I chose this client after I believed it would be interesting to find the photos to compose the site.
+![image](https://user-images.githubusercontent.com/111085436/197674587-b570a15b-5e8e-41ef-8296-300b7939eb93.png)
